@@ -58,7 +58,7 @@ std::ostream	&operator<<(std::ostream &os, Fixed const &rhs) {
 
 float	Fixed::toFloat(void) const {
 
-	return (_value / 256.0f);
+	return (_value / 256.0);
 }
 
 int		Fixed::toInt(void) const {

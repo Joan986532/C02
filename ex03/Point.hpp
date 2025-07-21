@@ -14,11 +14,10 @@ class Point
 		Fixed get_xValue(void) const ;
 		Fixed get_yValue(void) const ;
 	 private:
-		const Fixed _x;
-		const Fixed _y;
-		
+		Fixed const _x;
+		Fixed const _y;
 };
  
-bool bsp(Point const &a, Point const &b, Point const &c, Point const &p);
+bool bsp(Point const a, Point const b, Point const c, Point const p);
 
 #endif
